@@ -1,0 +1,178 @@
+[
+    {
+        "id": 1,
+        "nombre": "1/8 de Pollo a la brasa",
+        "precio": "8.00",
+        "descripcion": "1/8 de Pollo a la brasa<br>Una porción de papas<br>1 porción de Ensalada<br>Crema de Mayonesa<br>Crema de Huacatay<br>Crema de Aji<br>Crema de Mostaza<br>",
+        "imagen": "https://pikofinochickenbar.com/wp-content/uploads/2024/01/octavo-POLLO-A-LA-BRASA.jpg",
+        "valoracion": "5 estrellas"
+    },
+    {
+        "id": 2,
+        "nombre": "1/4 de pollo a la brasa",
+        "precio": "16.00",
+        "descripcion": "1/4 de Pollo a la brasa<br>Una porción de papas<br>1 porción de Ensalada<br>Crema de Mayonesa<br>Crema de Huacatay<br>Crema de Aji<br>Crema de Mostaza<br>",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjezA9-4z0byMCywNsi3n3nBDUzsXJW2YaaA&s",
+        "valoracion": "5 estrellas"
+    },
+    {
+        "id": 3,
+        "nombre": "1/2 Pollo a la brasa",
+        "precio": "30.00",
+        "descripcion": "1 Pollo a la brasa entero<br>Una porción de papas<br>1 porción de Ensalada<br>Crema de Mayonesa<br>Crema de Huacatay<br>Crema de Aji<br>Crema de Mostaza<br>",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAX4FeRA4oo3N4KlkKnPaXFkfscJhXWpHdKw&s",
+        "valoracion": "5 estrellas"
+    },
+    {
+        "id": 4,
+        "nombre": "1 pollo a la brasa",
+        "precio": "48.00",
+        "descripcion": "1 Pollo a la brasa entero<br>Una porción de papas<br>1 Ensalada fresca<br>Crema de Mayonesa<br>Crema de Huacatay<br>Crema de Aji<br>Crema de Mostaza<br>",
+        "imagen": "https://perubicentenario.com/wp-content/uploads/2021/06/1-1024x594.png",
+        "valoracion": "4.7/5 estrellas"
+    },
+    {
+        "id": 5,
+        "nombre": "1/8 Pollo Broaster",
+        "precio": "14.00",
+        "descripcion": "1/8 Pollo broaster<br>Porción de papas fritas<br>Ensalada fresca<br>Crema de Mayonesa<br>Crema de Huacatay<br>Crema de Aji<br>Crema de Mostaza<br>",
+        "imagen": "https://images.akhbarelyom.com/images/images/large/20200120090003445.jpg",
+        "valoracion": "4.5 estrellas"
+    },
+    {
+        "id": 6,
+        "nombre": "1/4 Pollo Broaster",
+        "precio": "20.00",
+        "descripcion": "1/8 Pollo broaster<br>Porción de papas fritas<br>Ensalada fresca<br>Crema de Mayonesa<br>Crema de Huacatay<br>Crema de Aji<br>Crema de Mostaza<br>",
+        "imagen": "https://brasaycarbon.pe/wp-content/uploads/2020/12/broster-medio-pollo.jpg",
+        "valoracion": "4.5 estrellas"
+    },
+    {
+        "id": 7,
+        "nombre": "Alitas",
+        "precio": "14.00",
+        "descripcion": "4 piezas de alitas<br>Porción de papas fritas<br>Ensalada fresca<br>Crema de Mayonesa<br>Crema de Huacatay<br>Crema de Aji<br>Crema de Mostaza<br>",
+        "imagen": "https://thumbs.dreamstime.com/b/main-dish-fried-chicken-fries-veggies-close-up-gourmet-dinner-crispy-french-white-plate-served-wooden-table-50208299.jpg",
+        "valoracion": "4.5 estrellas"
+    },
+    {
+        "id": 8,
+        "nombre": "Alitas Kaipiri",
+        "precio": "17.00",
+        "descripcion": "5 piezas de alitas Kaipiri<br>Porción de papas fritas<br>Ensalada fresca<br>Crema de Mayonesa<br>Crema de Huacatay<br>Crema de Aji<br>Crema de Mostaza<br>",
+        "imagen": "https://media.istockphoto.com/id/492368523/photo/fried-chicken-wings-with-french-fries.jpg?s=612x612&w=0&k=20&c=b3eKBIDONmScXxZSMIbgySOsELWzs420fjjVTzVFJfU=",
+        "valoracion": "4.5 estrellas"
+    },
+    {
+        "id": 9,
+        "nombre": "Pollo Saltado",
+        "precio": "17.00",
+        "descripcion": "Tiras de pollo salteadas<br>Arroz blanco<br>Porción de papas fritas<br>Crema de Mayonesa<br>Crema de Huacatay<br>Crema de Aji<br>Crema de Mostaza<br>",
+        "imagen": "https://th.bing.com/th/id/OIP.0t8aznzU9OUq-OM0T8KVjwHaE8?rs=1&pid=ImgDetMain",
+        "valoracion": "4.5 estrellas"
+    },
+    {
+        "id": 10,
+        "nombre": "Lomo Saltado",
+        "precio": "17.00",
+        "descripcion": "Tiras de Lomo saltado<br>Arroz blanco<br>Porción de papas fritas<br>Crema de Mayonesa<br>Crema de Huacatay<br>Crema de Aji<br>Crema de Mostaza<br>",
+        "imagen": "https://assets.afcdn.com/recipe/20210416/119490_w3072h2304c1cx363cy240.jpg",
+        "valoracion": "4.5 estrellas"
+    },
+    {
+        "id": 11,
+        "nombre": "Mostrito",
+        "precio": "12.00",
+        "descripcion": "1/8 de pollo<br>1 porción de arroz<br>Porcion de papas fritas<br>Ensalada fresca<br>Crema de Mayonesa<br>Crema de Huacatay<br>Crema de Aji",
+        "imagen": "https://grupochios.com/wp-content/uploads/2022/02/mostrito.jpg",
+        "valoracion": "4.8 estrellas"
+    },
+    {
+        "id": 12,
+        "nombre": "Monstro",
+        "precio": "20.00",
+        "descripcion": "1/4 de pollo<br>1 porción de arroz<br>Porcion de papas fritas<br>Ensalada fresca<br>Crema de Mayonesa<br>Crema de Huacatay<br>Crema de Aji",
+        "imagen": "https://carbonylena.net/wp-content/uploads/2021/01/CHAUFI-BRASA-PERSONAL.jpeg",
+        "valoracion": "5 estrellas"
+    },
+    {
+        "id": 13,
+        "nombre": "1/4 Pollo + Salchipapa",
+        "precio": "20.00",
+        "descripcion": "1/4 de pollo<br> 1 Porción de Salchipapa<br>Ensalada fresca<br>Crema de Mayonesa<br>Crema de Huacatay<br>Crema de Aji<br>Crema de Mostaza",
+        "imagen": "https://img.mesa247.pe/archivos/platos/las-tinajas/las-tinajas.jpg",
+        "valoracion": "5 estrellas"
+    },
+    {
+        "id": 14,
+        "nombre": "1/4 Pollo + Anticucho",
+        "precio": "25.00",
+        "descripcion": "1/4 de pollo<br>1 Anticucho<br>Porcion de papas fritas<br>Ensalada fresca<br>Crema de Mayonesa<br>Crema de Huacatay<br>Crema de Aji",
+        "imagen": "https://i.pinimg.com/originals/6d/53/27/6d5327ff1c91a5ab694ee4b82d0cb012.jpg",
+        "valoracion": "5 estrellas"
+    },
+    {
+        "id": 15,
+        "nombre": "1/4 Pollo + Mollejitas",
+        "precio": "25.00",
+        "descripcion": "1/4 de pollo<br>1 porción de Mollejitas<br>Porcion de papas fritas<br>Ensalada fresca<br>Crema de Mayonesa<br>Crema de Huacatay<br>Crema de Aji",
+        "imagen": "https://lh5.googleusercontent.com/p/AF1QipMZgvdTKTH0HD8npetv2RpRB-SHUljqw0W1tFq3=w650-h393-k-no",
+        "valoracion": "5 estrellas"
+    },
+    {
+        "id": 16,
+        "nombre": "Combo Inca",
+        "precio": "55.00",
+        "descripcion": "1 Pollo entero <br>Porción de papas fritas <br>Ensalada fresca<br>1L Inca Kola<br>Crema de Mayonesa<br>Crema de Huacatay<br>Crema de Aji",
+        "imagen": "https://th.bing.com/th/id/OIP.ecLGzeu5O-sGxoOQZQ9XdwHaFb?pid=ImgDet&w=184&h=134&c=7",
+        "valoracion": "4 estrellas"
+    },
+    {
+        "id": 17,
+        "nombre": "Combo Pepsi",
+        "precio": "53.00",
+        "descripcion": "1 Pollo entero <br>Porción de papas fritas <br>Ensalada fresca<br>Pepsi 1 (1/2)L<br>Crema de Mayonesa<br>Crema de Huacatay<br>Crema de Aji",
+        "imagen": "https://polleriabrasasdelcentro.wordpress.com/wp-content/uploads/2021/07/pollo-entero-con-papas-y-gaseosa-2.png?w=750",
+        "valoracion": "4.5 estrellas"
+    },
+    {
+        "id": 18,
+        "nombre": "Combo Familiar",
+        "precio": "53.00",
+        "descripcion": "1 Pollo entero <br>Porción de papas fritas <br> Ensalada fresca <br>Gaseosa 2 (1/2)L <br>Crema de Mayonesa<br>Crema de Huacatay<br>Crema de Aji",
+        "imagen": "https://s3-rokys-pro.s3.amazonaws.com/media/catalog/product/m/e/mega-banquete.jpg",
+        "valoracion": "4.5 estrellas"
+    },
+    {
+        "id": 19,
+        "nombre": "Combo Chaufero",
+        "precio": "53.00",
+        "descripcion": "1 Pollo entero <br>Porción de papas fritas <br>Ensalada fresca<br>Porcion de arroz chaufa<br>Crema de Mayonesa<br>Crema de Huacatay<br>Crema de Aji",
+        "imagen": "https://paraderohuanca.com/prototipos/brasas/imagenes/mostrito.jpg",
+        "valoracion": "4.5 estrellas"
+    },
+    {
+        "id": 20,
+        "nombre": "Combo Super Diego's",
+        "precio": "53.00",
+        "descripcion": "1+1/4 Pollo a la brasa<br>Porción de papas fritas <br>Ensalada fresca<br>Crema de Mayonesa<br>Crema de Huacatay<br>Crema de Aji<br>Crema de Mostaza<br>",
+        "imagen": "https://brasaycarbon.pe/wp-content/uploads/2020/12/brasa-pollo-entero-sin-gaseosa.jpg",
+        "valoracion": "4.5 estrellas"
+    },
+    {
+        "id": 21,
+        "nombre": "Hamburguesa con papas",
+        "precio": "12.00",
+        "descripcion": "Hamburguesa de pollo<br>Porción de papas fritas<br>Crema de ají <br> Crema de Mayonesa<br>Crema de Huacatay<br>Crema de Mostaza<br>",
+        "imagen": "https://img.freepik.com/fotos-premium/plato-comida-hamburguesa-papas-fritas_902639-1308.jpg",
+        "valoracion": "4.5 estrellas"
+    },
+    {
+        "id": 22,
+        "nombre": "Salchipapas",
+        "precio": "9.00",
+        "descripcion": "Papas fritas<br>Trozos de salchicha<br>Crema de ají <br> Crema de Mayonesa<br>Crema de Huacatay<br>Crema de Mostaza<br>",
+        "imagen": "https://moyobamba.com/archivo/wp-content/uploads/2018/10/Salchipapa.jpg",
+        "valoracion": "4 estrellas"
+    }
+]

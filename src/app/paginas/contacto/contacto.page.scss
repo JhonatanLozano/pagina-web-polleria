@@ -1,0 +1,39 @@
+
+
+iframe{
+    margin: 2px auto;
+    border: none;
+
+}
+ion-col:first-child{
+    text-align: center;
+}
+ion-input{
+        height: 40px;
+        padding: 0;
+    }
+form{
+    box-shadow: 0 0 10px 0px #333;
+    border-radius: 10px;
+    padding: 10px;
+    line-height: 0.5rem;
+    margin:15px;
+}
+
+
+
+#titulo-form{
+    font-size: 2rem;
+    text-align: center;
+    height: 60px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+*{
+    font-family: "Bubblegum Sans", sans-serif;
+    font-weight:lighter;
+    font-style: normal;
+}

@@ -1,0 +1,131 @@
+<ion-menu contentId="main-content" menuId="main-menu">
+  <ion-header>
+    <ion-toolbar color="rojo">
+      <ion-title>Pollería Diego's</ion-title>
+        <ion-buttons slot="end">
+          <ion-menu-button menu="main-menu">
+            <ion-icon name="close"></ion-icon>
+          </ion-menu-button>
+        </ion-buttons>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content class="ion-padding">
+    <ion-grid>
+      <ion-row>
+        @for (m of menu_opc |async;track $index) {
+          <ion-col size="12" [routerLink]="m.ruta">
+              <ion-item>
+                <ion-icon slot="start" [name]="m.icono"></ion-icon>
+                <ion-label>{{m.nombre}}</ion-label>
+              </ion-item>
+              
+          </ion-col>
+        }
+        
+      </ion-row>
+    </ion-grid>
+  </ion-content>
+</ion-menu>
+
+<!-- 
+<ion-menu contentId="main-content" menuId="carrito">
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>Carrito</ion-title>
+        <ion-buttons slot="end">
+          <ion-menu-button menu="carrito">
+            <ion-icon name="close"></ion-icon>
+          </ion-menu-button>
+        </ion-buttons>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content class="ion-padding">
+    <ion-grid>
+      <ion-row>
+        @for (m of carrito;track $index) {
+          <ion-col size="12" >
+              <ion-item>
+                <ion-icon slot="start" [name]="m.imagen"></ion-icon>
+                <ion-label>{{m.nombre}}</ion-label>
+              </ion-item>
+              
+          </ion-col>
+        }
+        
+      </ion-row>
+    </ion-grid>
+  </ion-content>
+</ion-menu> -->
+
+<div class="ion-page" id="main-content">
+  <ion-header [translucent]="true">
+    <ion-toolbar color="rojo">
+      <ion-buttons slot="start">
+        <ion-menu-button menu="main-menu"></ion-menu-button>
+      </ion-buttons>
+      <ion-title size="large">Pollería Diego's</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content class="ion-padding"> 
+    <section class="bienvenido">
+      <div class="bienvenido-text">
+          <h1>Bienvenido a la página web de POLLERÍA DIEGO'S</h1>
+          <p>"Disfruta los auténticos, donde la tradición y la calidad se unen para ofrecerte una experiencia única. Cada plato está preparado con ingredientes frescos y una dedicación que refleja nuestra pasión por la buena comida."</p>
+          <a  class="btn-ver-productos" (click)="DeslizarBtnVerProductos($event)" #btnProductos>Ver Productos</a>
+      </div>
+      <div class="imagen-polleria">
+          <img src="/assets/imagenes/imagen_front_polleria.jpg" alt="Imagen del Restaurante">
+      </div>
+    </section>
+    <h1 class="titulo-sect">Productos</h1>
+    <div class="carrusel-container">
+      <div class="carrusel" #Carrusel>
+        
+        @for (plato of platos; track $index) {
+          <ion-card class="producto">
+            
+            <ion-card-header>
+              <ion-img [src]="plato.imagen"></ion-img>
+              <ion-card-title>{{plato.nombre}}</ion-card-title>
+            </ion-card-header>
+
+            <ion-card-content>
+              <ion-grid>
+
+                <ion-row>
+                  <ion-col size="6" class="producto-atributo"><strong>Precio</strong></ion-col>
+                  <ion-col size="6" class="producto-atributo">{{plato.precio}}</ion-col>
+                </ion-row>
+
+                <ion-row>
+                  <ion-col size="6" class="producto-atributo"><strong>Descripción</strong></ion-col>
+                  <ion-col size="6" class="producto-atributo" [innerHTML]="plato.descripcion"></ion-col>
+                </ion-row>
+
+                <ion-row>
+                  <ion-col size="6" class="producto-atributo"><strong>Valoración</strong></ion-col>
+                  <ion-col size="6" class="producto-atributo">{{plato.valoracion}}</ion-col>
+                </ion-row>
+                
+              </ion-grid>
+            </ion-card-content>
+          </ion-card>
+        }
+        
+    </div>
+  </div>
+  <a routerLink="/productos"><button class="btn-ver-platos">Ver Platos</button></a>
+  <button class="carrusel-btn prev" (click)="slideAnterior()" >
+    <ion-icon name="chevron-back"></ion-icon>
+  </button>
+  <button class="carrusel-btn next" (click)="slideSiguiente()">
+    <ion-icon name="chevron-back"></ion-icon>
+  </button>
+    
+    
+      
+    
+  <app-pie-pagina></app-pie-pagina>
+  </ion-content>
+</div>

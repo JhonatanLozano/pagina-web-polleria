@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">polleria-diegos</string>
+    <string name="title_activity_main">polleria-diegos</string>
+    <string name="package_name">com.polleriadiegos.app</string>
+    <string name="custom_url_scheme">com.polleriadiegos.app</string>
+</resources>

@@ -1,0 +1,167 @@
+<ion-menu contentId="main-content" menuId="carrito" side="end" >
+  <ion-header>
+    <ion-toolbar color="rojo">
+      <ion-title>Carrito</ion-title>
+        <ion-buttons slot="end">
+          <ion-menu-button menu="carrito">
+            <ion-icon name="close"></ion-icon>
+          </ion-menu-button>
+        </ion-buttons>
+    </ion-toolbar>
+  </ion-header>
+
+
+  <ion-content class="ion-padding">
+    <ion-grid>
+      <ion-row>
+        @for (m of carrito;track $index) {
+          <ion-col size="8" class="col-carrito">
+              <ion-item>
+                <ion-img [src]="m.imagen" class="img-producto-en-carrito"></ion-img>
+                <ion-label>{{m.nombre}}</ion-label>
+              </ion-item>
+
+          </ion-col>
+          <ion-col size="4" class="col-carrito">
+            <ion-item>
+              <ion-label>S/{{m.precio}}</ion-label>
+            </ion-item>
+          </ion-col>
+        }
+
+      </ion-row>
+
+      @if (carrito.length >0) {
+        <ion-row>
+          <ion-col size="12">
+            <ion-item id="cont-total">
+              <ion-label>Total a pagar : S/{{total}}</ion-label>
+            </ion-item>
+          </ion-col>
+        </ion-row>
+        <ion-button  (click)="vaciarCarrito()" expand="block" color="amarillo">
+        Vaciar carrito
+        </ion-button>
+      }
+
+    </ion-grid>
+  </ion-content>
+</ion-menu>
+
+
+<div class="ion-page" id="main-content">
+  <ion-header [translucent]="true">
+    <ion-toolbar color="rojo">
+      <ion-buttons slot="start">
+        <ion-back-button defaultHref="/" color="blanco"></ion-back-button>
+      </ion-buttons>
+      <ion-title size="large">Pollería Diego's</ion-title>
+
+      <ion-menu-toggle slot="end" menu="carrito" id="boton-carrito" >
+        <ion-button color="blanco">
+          <ion-icon slot="end" name="cart-outline" color="rojo" ></ion-icon>
+        </ion-button>
+      </ion-menu-toggle>
+
+
+    </ion-toolbar>
+  </ion-header>
+
+
+
+
+<ion-content [fullscreen]="true">
+  <app-header-ios [titulo]="namePage"></app-header-ios>
+
+  <ion-grid>
+    @for (item of [1,1,1,1,1]; track $index) {
+      <ion-row >
+        @for (item of [1,1,1,1]; track $index) {
+          <ion-col size="3">
+
+            <ion-list *ngIf="!loaded" >
+
+              <ion-item>
+                <ion-thumbnail slot="start" class="imagen-thumbnail" >
+                  <ion-skeleton-text [animated]="true"></ion-skeleton-text>
+                </ion-thumbnail>
+              </ion-item>
+              <ion-item>
+                <ion-label>
+                  <h3>
+                    <ion-skeleton-text [animated]="true"  class="texto-esqueleto"></ion-skeleton-text>
+                  </h3>
+                  <p>
+                    <ion-skeleton-text [animated]="true"  class="texto-esqueleto"></ion-skeleton-text>
+                  </p>
+                  <p>
+                    <ion-skeleton-text [animated]="true" class="texto-esqueleto"></ion-skeleton-text>
+                  </p>
+                  <p>
+                    <ion-skeleton-text [animated]="true" class="texto-esqueleto"></ion-skeleton-text>
+                  </p>
+                  <p>
+                    <ion-skeleton-text [animated]="true" class="texto-esqueleto"></ion-skeleton-text>
+                  </p>
+                </ion-label>
+              </ion-item>
+
+
+
+            </ion-list>
+
+          </ion-col>
+        }
+      </ion-row>
+    }
+    <ion-row>
+      @for (plato of platos; track $index) {
+
+        <ion-col size="4" size-xs="12" size-sm="3">
+          <ion-card class="producto">
+
+            <ion-card-header>
+              <ion-img [src]="plato.imagen"></ion-img>
+              <!-- <ion-card-title>{{plato.nombre}}</ion-card-title> -->
+            </ion-card-header>
+
+            <ion-card-content>
+              <ion-grid>
+
+                <ion-row>
+                  <ion-col size="6" class="producto-atributo"><strong>Nombre</strong></ion-col>
+                  <ion-col size="6">{{plato.nombre}}</ion-col>
+                </ion-row>
+
+                <ion-row>
+                  <ion-col size="6" class="producto-atributo"><strong>Precio</strong></ion-col>
+                  <ion-col size="6">{{plato.precio}}</ion-col>
+                </ion-row>
+
+                <ion-row>
+                  <ion-col size="6" class="producto-atributo"><strong>Descripción</strong></ion-col>
+                  <ion-col size="6" [innerHTML]="plato.descripcion"></ion-col>
+                </ion-row>
+
+                <ion-row>
+                  <ion-col size="6" class="producto-atributo"><strong>Valoración</strong></ion-col>
+                  <ion-col size="6">{{plato.valoracion}}</ion-col>
+                </ion-row>
+
+                <ion-button class="btn-agregar-carrito" (click)="AgregarCarrito(plato)" expand="round" >
+                  Agregar al carrito
+                </ion-button>
+              </ion-grid>
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+
+      }
+    </ion-row>
+  </ion-grid>
+
+  <app-pie-pagina></app-pie-pagina>
+</ion-content>
+
+
+

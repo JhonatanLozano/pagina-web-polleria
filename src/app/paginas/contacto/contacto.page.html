@@ -1,0 +1,23 @@
+<app-header [titulo]="pageName"></app-header>
+
+<ion-content [fullscreen]="true">
+  <app-header-ios [titulo]="pageName"></app-header-ios>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col size-md="6" size-xs="12" size-sm="7">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1195.1307711789825!2d-78.5324326739759!3d-5.639197768906879!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91b45317811f6caf%3A0xfa5124abd7b0252a!2sPoller%C3%ADa%20Diego&#39;s%20Chicken!5e0!3m2!1ses!2spe!4v1724850641994!5m2!1ses!2spe"
+          width="95%" height="450"  loading="lazy">
+        </iframe>
+      </ion-col>
+      <ion-col size-md="6" size-xs="12" size-sm="5">
+        
+        <ion-label id="titulo-form">Envíanos un Mensaje</ion-label>
+        <app-formulario></app-formulario>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <app-pie-pagina></app-pie-pagina>
+</ion-content>

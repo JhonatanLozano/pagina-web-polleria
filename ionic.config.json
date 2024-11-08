@@ -1,0 +1,7 @@
+{
+  "name": "todo-ionic-standalone",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}

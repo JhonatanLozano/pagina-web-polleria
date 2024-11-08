@@ -1,0 +1,35 @@
+<div class="contenedor">
+  <form [formGroup]="miFormulario" (ngSubmit)="enviarForm()">
+    <ion-item>
+      <ion-label position="floating">Nombre Completo : </ion-label>
+      <ion-input required formControlName="full_name" type="text" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"></ion-input>
+    </ion-item>
+    @if (tieneError('full_name' , 'required')) {
+      <ion-text color="danger">Nombre obligatorio*</ion-text>
+    }
+
+    <ion-item>
+      <ion-label position="floating" >Email :</ion-label>
+      <ion-input required formControlName="email" type="text" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"></ion-input>
+    </ion-item>
+    @if (tieneError('email' , 'required')) {
+      <ion-text color="danger">Email Obligatorio*</ion-text>
+    }
+    @if (tieneError('email' , 'email')) {
+      <ion-text color="danger">Email debe tener un formato válido*</ion-text>
+    }
+
+    <ion-item>
+      <ion-label position="floating">Mensaje: </ion-label>
+      <ion-input required formControlName="mensaje" type="text" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"></ion-input>
+    </ion-item>
+    @if (tieneError('mensaje' , 'required')) {
+      <ion-text color="danger">Mensaje Obligatorio*</ion-text>
+    }
+
+    <ion-button expand="block" color="danger" type="submit" [disabled]="miFormulario.invalid">
+      Enviar
+    </ion-button>
+  </form>
+
+</div>
