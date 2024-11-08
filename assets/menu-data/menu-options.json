@@ -1,0 +1,17 @@
+[
+  {
+    "icono" : "grid-outline",
+    "nombre" : "Productos",
+    "ruta": "/productos"
+  },
+  {
+    "icono" : "person-add-outline",
+    "nombre" : "Contacto",
+    "ruta": "/contacto"
+  },
+  {
+    "icono" : "logo-apple-appstore",
+    "nombre" : "Sobre-nosotros",
+    "ruta": "/sobre-nosotros"
+  }
+]
